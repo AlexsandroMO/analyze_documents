@@ -1,0 +1,127 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* body{
+    margin: 0;
+    font: normal 15px;
+    height: calc(100vh - 80px)  ;
+    background: url('img/submarino-c.jpg');
+    background-size: cover;
+} */
+
+body{
+    background-color: #5bb9ed;
+}
+
+h1, h2, p {
+	margin: 0;
+	color: #333;
+}
+
+
+.container {
+	max-width: 1920px;
+    width: 100%;
+    text-align: center;
+}
+
+header{
+	top: 0;
+	height: auto;
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+
+}
+
+h1{
+    text-align: center;
+    color: #333;
+    text-shadow: 0.1em 0.1em 0.07em rgb(225, 228, 230);
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+h2{
+    color: white;
+    text-shadow: 0.1em 0.1em 0.07em black;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+#text-p{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* navbar */
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 60px;
+	width: 100%;
+	z-index: 1; /*Sobresair nos elementos*/
+    background-color: #FFF;
+    /* border-bottom: 1px solid #CCC; */
+	
+}
+
+#nav-alinha{
+    position: relative;
+    left: 80%;
+    text-align: center;
+}
+
+#section-alinha-h1{
+    background: white;
+    
+}
+
+#section-alinha{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+    box-shadow: 3px 5px 10px black;
+}
+
+#bt{
+    background: white;
+}
+
+.input-group-prepend{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.form-control{
+    padding: 20px;
+}
+
+/* footer */
+
+#alinha-nav-footer{
+    text-align: center;
+    padding: 4.5%;
+}
+
+
+#nav-alinha-footer{
+    position: relative;
+    left: 45%;
+    text-align: center;
+    color: white;
+    position: fixed;
+}
+
+footer p {
+    color: #D1D1D1;
+    text-decoration: none;
+}
